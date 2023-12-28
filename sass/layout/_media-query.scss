@@ -1,0 +1,21 @@
+$mobile:768px;
+
+@media screen and (max-width:$mobile) {
+     .navbar_container {
+        flex-direction: column;
+        align-items: flex-start;
+        .logo_container{
+            margin-left: 20px;
+        }
+        .main_menu {
+            margin-top: 10px;
+        }
+        .menu_list{
+            flex-direction: column;
+        }
+        .menu_item{
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+     }
+}

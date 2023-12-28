@@ -1,0 +1,166 @@
+
+#main_content{
+    max-width: 1020px;
+    margin: 0 auto;
+
+    .hero_section{
+        margin-top: 10%;
+        .main_container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+       
+        .illustration_image{
+          margin-right: 30px;
+        }
+
+    }
+
+    //Section two
+    .intro_section{
+        margin-top: 10%;
+        .intro_container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    //Section Three
+    .environment_section{
+        margin-top: 10%;
+        .environment_container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+        .enviroment_content {
+            float: right;
+        }
+    }
+
+    //Section Four
+    .achievement_section{
+        margin-top: 10%;
+        .achievement_container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    //Section Five 
+    .join_section{
+        margin-top: 15%;
+        .card_container{
+            background-color: #dedede;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1020px;
+            height: 350px; 
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+        .join_content {
+            margin-left: 30px;
+            margin-top: 30px;
+            position: relative;
+        }
+        .illustration_image {
+            position: absolute;
+            top:-120%;
+            left: 50%;
+            transform: translateX(-70%);
+        }
+        .illustration_image img {
+            max-width: 130%;
+        }
+        .join_info {
+            padding: 10px 20px; 
+        }
+        
+        .join_container {
+            flex-basis: 40%;
+        }
+        .card_menu_list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .card_menu_item {
+            margin-bottom: 20px;
+            position: relative;
+        }
+        
+        .card_menu_item::after {
+            content: '';
+            display: block;
+            width: 65%;
+            height: 1px;
+            background-color: #ccc;
+            position: absolute;
+            bottom: 1;
+            left: 0;
+        }
+    }
+
+    //Section Six
+    .testimonial_section{
+        margin-top: 10%;
+
+        .testimonial_content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .card_container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .testimonial_card{
+            display: flex;
+            flex-basis: calc(33.33% - 20px);
+            margin:10px 20px;
+            overflow: hidden;
+            height: 200px;
+            text-align: center;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background-color: #ccc;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .testimonial_card:last-child h3{
+            padding-bottom: 10px;
+        }
+    }
+
+    //Section Seven
+    .enroll_section{
+        margin-top: 10%;
+
+        .card_container{
+            background-color: #ccc;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10%;
+        }
+        .enroll_container{
+            margin-left: 30px;
+        }
+        .illustration_image img{
+            flex-basis: 40%;
+            max-width: 100%;
+        }
+    }
+}
