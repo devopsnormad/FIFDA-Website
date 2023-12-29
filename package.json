@@ -1,11 +1,22 @@
 {
   "name": "fifda-website",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Emmanuel Doji",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devopsnormad/FIFDA-Website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devopsnormad/FIFDA-Website/issues"
+  },
+  "homepage": "https://github.com/devopsnormad/FIFDA-Website#readme",
+  "description": "",
+  "dependencies": {
+    "node": "^21.2.0"
+  }
 }
