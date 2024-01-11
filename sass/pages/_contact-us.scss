@@ -1,0 +1,45 @@
+.contact_container{
+    margin-top: 10rem;
+
+    .contact_info {
+        display: flex;
+        gap: 20px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .sales_enquiry_section{
+        margin-top:10rem;
+        margin-bottom: 10rem;
+    }
+    .sales_enquiry{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+
+
+   .enquiry_action input {
+        width: 250px;
+        height: 40px;
+        padding-left: 10px;
+        border: 1px solid #d2d2d7;
+        border-radius: 10px;
+   }
+   .enquiry_action{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 5%;
+   }
+
+   .map_container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10rem;
+   }
+   .map_container iframe {
+    border-radius: 10px;
+}
+
+}

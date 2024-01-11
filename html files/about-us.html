@@ -10,34 +10,101 @@
     href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;700&display=swap"
     rel="stylesheet"
   />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
     <title>Firm Foundation and Dominion Academy</title>
 </head>
 <body>
 
-<header id="navigation_bar">
-    <div class="navbar_container">
-        <div class="logo_container">
-            <img src="../assets/FIFDA-logo.PNG" width="50" height="50" alt="FIFDA">
+
+    <header id="navigation_bar">
+        <div class="navbar_container">
+            <div class="logo_container">
+                <img src="../assets/FIFDA-logo.PNG" width="50" height="50" alt="FIFDA">
+            </div>
+            <nav class="main_menu">
+                <ul class="menu_list">
+                    <li class="menu_item"><a href="../html files/index.html">Home</a></li>
+                    <li class="menu_item"><a href="../html files/school.html">School</a></li>
+                    <li class="menu_item"><a href="../html files/media.html">Media</a></li>
+                    <li class="menu_item"><a href="../html files/about-us.html">About Us</a></li>
+                </ul>
+            </nav>
+            <nav class="right_side_navbar">
+                <ul class="menu_list">
+                    <li class="menu_item"><a href="../html files/contact-us.html">Contact Us</a></li>
+                    <li class="menu_item"><button class="btn_signup btn_primary">Sign up</button></li>
+                </ul>
+            </nav>
         </div>
-        <nav class="main_menu">
-            <ul class="menu_list">
-                <li class="menu_item"><a href="../html files/index.html">Home</a></li>
-                <li class="menu_item"><a href="#">Classes</a></li>
-                <li class="menu_item"><a href="#">Curriculum</a></li>
-                <li class="menu_item"><a href="#">About Us</a></li>
-            </ul>
-        </nav>
-        <nav class="right_side_navbar">
-            <ul class="menu_list">
-                <li class="menu_item"><a href="#">Contact</a></li>
-                <li class="menu_item"><button class="btn_signup btn_primary">Sign up</button></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+    </header>
 
 <main id="main_content">
-   
+    <div class="about_us_container">
+        <!-- About Us Section -->
+        <div class="about_us_section">
+            <div class="about_us_image">
+                <img src="../assets/ben-white-83tkHLPgg2Q-unsplash.jpg" width="100%" alt="Pupil">
+            </div>
+            <div class="about_us_info">
+                <h2>Welcome to Firm Foundation and Dominion Academy!</h2>
+                <p>We are a prestigious school dedicated to providing a high-quality education for our pupils. Our curriculum is designed to foster creativity, critical thinking, and personal growth. With our experienced and passionate teachers, state-of-the-art facilities, and nurturing environment, we aim to empower our pupils to reach their full potential.</p>
+                <div class="about_us_buttons">
+                    <button class="enroll_button btn_transparent">Enroll</button>
+                    <button class="discover_button btn_transparent">Discover</button>
+                </div>
+                <div class="about_us_actions">
+                    <div class="about_us_action">
+                        <button id="openPopup" class="btn_about_us_action" >
+                            Principal's Message
+                        </button>
+                    </div>
+                    <div class="about_us_action">
+                       <button id="openPopupMsg" class="btn_about_us_action">
+                        School Facilities
+                    </button>
+                    </div>
+                </div>
+                <div id="principalMessagePopup" class="popup">
+                    <!-- Content for Principal's Message -->
+                    <div class="popup_content">
+                    <p>This is the Principal's Message content.</p>
+                    <button id="closePopup">Close</button>
+                </div>
+                </div>
+                
+                <div id="schoolFacilitiesPopup" class="popup">
+                    <div class="popup_content">
+                    <p>This is the School Facilities content.</p>
+                    <button id="closePopupMsg">Close</button>
+                </div>
+                </div>
+
+                
+                <div class="about_us_buttons-info">
+                    <button class="apply_now_button btn_primary">Apply Now</button>
+                    <button class="contact_us_button btn_transparent">
+                        <span class="material-symbols-outlined heart_icon">
+                            favorite
+                        </span>
+                        Contact us
+                    </button>
+                </div>
+            </div>
+        </div>
+       
+
+        <!-- Image Cards Section -->
+        <div class="image_cards_section">
+            <div class="image_card_items">
+            <div class="image_card">
+                <img src="../assets/priscilla-du-preez-ggeZ9oyI-PE-unsplash.jpg"alt="">
+                <img src="../assets/raissa-lara-lutolf-fasel-ivKWcUFJQtE-unsplash.jpg" alt="">
+                <img src="../assets/mouad-bouallayel-Y4pvI2pFkTY-unsplash.jpg"alt="">
+            </div>
+          
+            </div>
+        </div>
+    </div>
 </main>
 
 <footer id="footer_navigation">
@@ -63,5 +130,6 @@
     </div>
 </footer>  
 </main>
+<script src="../javascript/app.js"></script>
 </body>
 </html>

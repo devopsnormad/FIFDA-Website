@@ -2,9 +2,10 @@
 #main_content{
     max-width: 1020px;
     margin: 0 auto;
+    height: 100%;
 
     .hero_section{
-        margin-top: 10%;
+        margin-top: 10rem;
         .main_container{
             display: flex;
             justify-content: space-between;
@@ -19,7 +20,7 @@
 
     //Section two
     .intro_section{
-        margin-top: 10%;
+        margin-top: 10rem;
         .intro_container{
             display: flex;
             justify-content: space-between;
@@ -29,7 +30,7 @@
 
     //Section Three
     .environment_section{
-        margin-top: 10%;
+        margin-top: 10rem;
         .environment_container{
             display: flex;
             justify-content: space-between;
@@ -43,7 +44,7 @@
 
     //Section Four
     .achievement_section{
-        margin-top: 10%;
+        margin-top: 10rem;
         .achievement_container{
             display: flex;
             justify-content: space-between;
@@ -53,7 +54,7 @@
 
     //Section Five 
     .join_section{
-        margin-top: 15%;
+        margin-top: 15rem;
         .card_container{
             background-color: #dedede;
             display: flex;
@@ -109,7 +110,7 @@
 
     //Section Six
     .testimonial_section{
-        margin-top: 10%;
+        margin-top: 10rem;
 
         .testimonial_content{
             display: flex;
@@ -145,7 +146,7 @@
 
     //Section Seven
     .enroll_section{
-        margin-top: 10%;
+        margin-top: 10rem;
 
         .card_container{
             background-color: #ccc;
@@ -153,7 +154,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 10%;
+            margin-bottom: 10rem;
         }
         .enroll_container{
             margin-left: 30px;
